@@ -1,0 +1,121 @@
+.container_navbar{
+    border: 1px solid;
+    display: flex;
+    height: calc(3.5rem - 2px);
+    background-color: rgb(29, 28, 28);
+}
+.Burger_Logo_Navbar{
+    display: flex;
+    
+    height: 3.3rem;
+}
+.burger{
+    display: flex;
+    Flex-direction: column;
+    cursor: pointer;
+    justify-content: space-evenly;
+    margin: 0.2rem;
+    padding: 0.5rem;
+    border: 1 px solid transparent; 
+      margin-left: 0.5rem;
+      margin-right: 0.7rem;
+      border-radius: 100%;
+}
+.burger p{
+    margin: 0.5px;
+     width: 1.2rem;
+    height: 0.1rem;
+    background-color: rgb(250, 248, 248);
+    }
+    .logo_div_Navbar{
+        display: flex;
+        text-decoration: none;
+    }
+    .logo_title_navbar{
+    margin: auto;
+    color: white;
+    font-weight: bold;
+    margin-left: 0.5rem;
+    font-size: 1.2em;
+
+}
+.apps_Box{
+    width: 22px;
+    margin: auto 7rem;
+    height: 22px;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     margin-top: 1rem;
+    
+    
+}
+.appBox{
+    border: 1px solid white;
+margin: 0.1rem;
+width: 2px;
+height: 2px;
+}
+.Auth_Btn {
+    cursor: pointer;
+    color: rgb(255, 81, 81);
+    background-color: black;
+    border: 1.5px solid;
+    padding: -0.3rem;
+    border-radius: 0.5rem;
+    margin: 0;
+
+    border-radius: 0.1rem;
+  }
+.Auth_cont_Navbar {
+    width: fit-content;
+    margin: auto 0.5rem;
+    position: relative;
+    display: flex;
+    
+}
+  .apps_Box:hover{
+    background-color: rgb(88, 87, 87); /* Change background color on hover */
+  border-radius: 50%;
+  transform: scale(1.1);
+}
+.points-box {
+    margin-left: 10px;
+    margin-top: 1rem;
+    font-size: 14px;
+    color: #fff;
+    background-color: #333; /* Background color of the box */
+    padding: 15px; /* Padding inside the box */
+    border: 1px solid #fff; /* Border of the box */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow for a 3D effect */
+}
+.icon-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .vid_bell_Navbar {
+    cursor: pointer;
+  }
+.tooltip-text {
+    visibility: hidden;
+    width: 80px; /* Adjust the width as needed */
+    background-color: rgb(244, 236, 236);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%; /* Position the tooltip above the icon */
+    left: 50%;
+    margin-left: -40px; /* Use half of the width to center align */
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .icon-container:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+  }

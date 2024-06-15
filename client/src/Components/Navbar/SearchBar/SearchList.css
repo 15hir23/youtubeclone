@@ -1,0 +1,21 @@
+.Container_SearchList {
+    background-color: rgb(225, 220, 220);
+    width: 83%;
+    position: absolute;
+    top: 1.3rem; /* Adjust the top position to align with the bottom of the search bar */
+    height: fit-content;
+   left: 0.5rem;
+    z-index: 90;
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px; 
+}
+
+.titleItem {
+    margin: 0;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.titleItem:hover {
+    background-color: rgba(160, 200, 236, 0.516);
+}

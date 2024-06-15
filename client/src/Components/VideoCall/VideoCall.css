@@ -1,0 +1,99 @@
+/* VideoCall.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #333;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .video-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex: 1;
+    position: relative;
+  }
+  
+  video {
+    width: 45%;
+    height: auto;
+    margin: 2.5%;
+  }
+  
+  .video-wrapper {
+    position: relative;
+    width: 45%;
+    margin: 2.5%;
+  }
+  
+  .video-controls {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .control-button {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .control-button.active {
+    background-color: green;
+  }
+  
+  .control-button.inactive {
+    background-color: red;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: darkred;
+  }
+  
+  .invite-link {
+    margin-top: 20px;
+    background-color: #444;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .invite-link a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
